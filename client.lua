@@ -3,6 +3,19 @@ local playerDistances = {}
 local displayToggle = false
 local lastToggleTime = 0
 
+local fontIndex = {
+    [1] = 0, -- Chalet London
+    [2] = 1, -- House Script
+    [3] = 2, -- Monospace
+    [4] = 4, -- Chalet Comprime Cologne
+    [5] = 7  -- Pricedown
+}
+local fontvalue = idahConfig.font
+local font = fontIndex[fontvalue]
+
+local function GetFont() return font end
+
+
 local function DrawText3D(position, text, r, g, b, offset) 
     local onScreen, _x, _y = World3dToScreen2d(position.x, position.y, position.z + 1 + offset)
     local dist = #(GetGameplayCamCoords() - position)
@@ -13,7 +26,7 @@ local function DrawText3D(position, text, r, g, b, offset)
 
     if onScreen then
         SetTextScale(0.0 * scale, 0.5 * scale)
-        SetTextFont(0)
+        SetTextFont(GetFont())
         SetTextProportional(1)
         SetTextColour(r, g, b, 255)
         SetTextDropshadow(0, 0, 0, 0, 255)
@@ -30,13 +43,13 @@ end
 Citizen.CreateThread(function()
     Wait(500)
     while true do
-        local isInsertPressed = IsControlPressed(0, 121)
-        local isControlPressed = IsControlPressed(0, 177)
+        local isInsertPressed = IsControlPressed(0, idahConfig.mainKey)
+        local isControlPressed = IsControlPressed(0, idahConfig.comboKey)
 
         if isControlPressed and isInsertPressed then
             if not lastToggleTime then lastToggleTime = GetGameTimer() end -- Initialize last toggle time
 
-            if GetGameTimer() - lastToggleTime > 1500 then -- Check if they've been held for more than 1.5 seconds
+            if GetGameTimer() - lastToggleTime > 750 then -- Check if they've been held for more than 1 second
                 displayToggle = not displayToggle
                 PlaySoundFrontend(-1, "SELECT", "HUD_FRONTEND_DEFAULT_SOUNDSET", false)  -- Play a sound on toggle
                 lastToggleTime = GetGameTimer()
@@ -56,17 +69,17 @@ Citizen.CreateThread(function()
                     local playerName = GetPlayerName(id)
 
                     if NetworkIsPlayerTalking(id) then
-                        DrawText3D(targetPedCords, serverId, 251, 177, 51, 0.235)
-                        DrawText3D(targetPedCords, playerName, 251, 177, 51, 0.13)
+                        DrawText3D(targetPedCords, serverId, idahConfig.talkingColor.r, idahConfig.talkingColor.g, idahConfig.talkingColor.b, 0.235)
+                        DrawText3D(targetPedCords, playerName, idahConfig.talkingColor.r, idahConfig.talkingColor.g, idahConfig.talkingColor.b, 0.13)
                     else
-                        DrawText3D(targetPedCords, serverId, 255, 255, 255, 0.235)
-                        DrawText3D(targetPedCords, playerName, 255, 255, 255, 0.13)
+                        DrawText3D(targetPedCords, serverId, idahConfig.defaultColor.r, idahConfig.defaultColor.g, idahConfig.defaultColor.b, 0.235)
+                        DrawText3D(targetPedCords, playerName, idahConfig.defaultColor.r, idahConfig.defaultColor.g, idahConfig.defaultColor.b, 0.13)
                     end
                 end
             end
         end
 
-        Citizen.Wait(0)
+        Wait(0)
     end
 end)
 
