@@ -3,7 +3,7 @@ games 'gta5'
 lua54 'yes'
 
 author 'Stanley, Vice Mondifications'
-description 'Displays a players id and username above the players head with activation of keybind.'
+description 'Displays server id and username above the head of all players with activation of keybind. Customizable font, colors, and keybind!'
 
 client_scripts {
     'config.lua',
