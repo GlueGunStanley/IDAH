@@ -39,7 +39,7 @@ Check out the [releases](https://github.com/Stanley405/IDAH/releases) page for t
 That's it! If everything went correctly, the next time you start your server the resource will start.
   
 ## Configuration 🔧
-A default configuration comes with the resource. You may use that as a reference on how to configure the resource properly.
+A default configuration comes with the resource. You may use that as a reference on how to configure the resource.
 
 >   ### Font
 >    1 (Chalet London) | 2 (House Script) | 3 (Monospace) | 4 (Chalet Comprime Cologne) | 5 (Pricedown)
@@ -62,4 +62,4 @@ If you've improved the resource, feel free to make a [pull request](https://gith
 ## License 📄
 Vice Modifications Copyright © 2024. All rights reserved.  
 This resource is licensed under [CC BY-NC-SA 4.0](https://github.com/Stanley405/IDAH/blob/main/LICENSE)
-<img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png" width="44" height="15.5" alt="CC BY-NC-SA 4.0">
+<img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png" width="50.6" height="17.8" alt="CC BY-NC-SA 4.0">
