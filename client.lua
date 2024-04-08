@@ -49,7 +49,7 @@ Citizen.CreateThread(function()
         if isControlPressed and isInsertPressed then
             if not lastToggleTime then lastToggleTime = GetGameTimer() end -- Initialize last toggle time
 
-            if GetGameTimer() - lastToggleTime > 750 then -- Check if they've been held for more than 1 second
+            if GetGameTimer() - lastToggleTime > 1000 then -- Check if they've been held for more than 1 second
                 displayToggle = not displayToggle
                 PlaySoundFrontend(-1, "SELECT", "HUD_FRONTEND_DEFAULT_SOUNDSET", false)  -- Play a sound on toggle
                 lastToggleTime = GetGameTimer()
