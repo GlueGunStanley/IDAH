@@ -45,11 +45,11 @@ A default configuration comes with the resource. You may use that as a reference
 >    1 (Chalet London) | 2 (House Script) | 3 (Monospace) | 4 (Chalet Comprime Cologne) | 5 (Pricedown)
 >
 >   ### Color
->    Red (0-255) | Green (0-255) | Blue (0-255)
+>    Red (0-255) | Green (0-255) | Blue (0-255)<br>
 >    Example: talkingColor = {r = 255, b = 177, g = 51},
 >
 >   ### Keybind
->    121 `INSERT` | 194 `BACKSPACE`
+>    121 `INSERT` | 194 `BACKSPACE`<br>
 >    You can find a list of controls here! -> [FiveM Controls](https://docs.fivem.net/docs/game-references/controls)
   
 ## Performance ➰
