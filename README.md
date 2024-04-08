@@ -58,4 +58,5 @@ If you've improved the resource, feel free to make a [pull request](https://gith
   
 ## License 📄
 Vice Modifications Copyright © 2024. All rights reserved.  
-This resource is licensed under [CC BY-NC-SA 4.0](https://github.com/Stanley405/IDAH/blob/main/LICENSE)![](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png) by the Creative Commons Corporation.
+This resource is licensed under [CC BY-NC-SA 4.0](https://github.com/Stanley405/IDAH/blob/main/LICENSE)!
+<img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png" width="44" height="15.5" alt="CC BY-NC-SA 4.0">
