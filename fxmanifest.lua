@@ -11,13 +11,14 @@
  *             Made In USA by Stanley. Vice Modifications © 2024. All rights reserved.
  */
 
- 
+
+
  fx_version 'cerulean'
  games 'gta5'
  lua54 'yes'
 
 author 'Stanley, Vice Mondifications'
-description 'Displays server id and username above the head of all players with activation of keybind. Customizable font, colors, and keybind!'
+description 'Displays server id and username above the head of all players with activation of keybind.'
 version '1.0.0'
 
 client_scripts {
