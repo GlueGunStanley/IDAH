@@ -16,9 +16,9 @@
 This resource displays the server id and username above the head of all players with the activation of a keybind.
 
 ## Features
-- Displays player server ids and usernames above the head of all players.
-- Peak display with press and release of keybind.
-- Toggle with press and hold of combo keybind.
+- Displays server id and username above the head of all players with activation of keybind.
+- Peak view with press and release of keybind.
+- Toggle view with press and hold of combo keybind.
 - Configurable fonts.
 - Configurable colors.
 - Configurable keybind.
@@ -58,4 +58,4 @@ If you've improved the resource, feel free to make a [pull request](https://gith
   
 ## License
 Vice Modifications Copyright © 2024. All rights reserved.  
-This resource is [CC BY-NC-SA 4.0](https://github.com/Stanley405/IDAH/blob/main/LICENSE) licensed.
+This resource is [CC BY-NC-SA 4.0](https://github.com/Stanley405/IDAH/blob/main/LICENSE)![](https://creativecommons.org/licenses/by-nc-sa/4.0/) licensed. 
