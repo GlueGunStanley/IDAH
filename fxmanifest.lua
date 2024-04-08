@@ -14,7 +14,7 @@
 
 
  fx_version 'cerulean'
- games 'gta5'
+ game 'gta5'
  lua54 'yes'
 
 author 'Stanley, Vice Mondifications'
