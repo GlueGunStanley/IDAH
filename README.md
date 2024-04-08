@@ -12,7 +12,7 @@
 
 
 
-# IDAH (ID Above Head)
+# IDAH (ID Above Head) 🆓
 This resource displays the server id and username above the head of all players with the activation of a keybind.
 
 ## Features ✨
@@ -49,10 +49,10 @@ A default configuration comes with the resource. You may use that as a reference
 >    121 (INSERT) | 194 (BACKSPACE)
 >    You can find a list of controls here! -> [FiveM Controls](https://docs.fivem.net/docs/game-references/controls)
   
-## Performance 📈
+## Performance ➰
 IDAH is a very lightweight resource and will not cause any performance issues.    
   
-## Contributions 🌐
+## Contributions 💜
 If you've found a bug or want to request a feature, you can go ahead and create an [issue](https://github.com/Stanley405/IDAH/issues).  
 If you've improved the resource, feel free to make a [pull request](https://github.com/Stanley405/IDAH/pulls)!  
   
