@@ -26,7 +26,6 @@ This resource displays the server id and username above the head of all players 
 
 ## Screenshots 📸
 ![](https://imgur.com/6WI4Fyx)
-<img src="https://imgur.com/6WI4Fyx" width="746" height="379" alt="">
 
 ## Download 🔽
 Check out the [releases](https://github.com/Stanley405/IDAH/releases) page for the latest resource version.
