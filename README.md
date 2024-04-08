@@ -24,8 +24,6 @@ This resource displays the server id and username above the head of all players 
 - Configurable keybind.
 - Lightweight resource.
 
-![](https://i.imgur.com/RXzFham.png) 
-
 ## Installation
 1. Download the latest release.
 2. Drag IDAH into your resource folder.
@@ -37,19 +35,19 @@ That's it! If everything went correctly, the next time you start your server the
 ## Configuration
 A default configuration comes with the resource. You may use that as a reference on how to configure the resource properly.
 
->    FONT
+>   ### Font
 >    1 (Chalet London) | 2 (House Script) | 3 (Monospace) | 4 (Chalet Comprime Cologne) | 5 (Pricedown)
 >
->    COLOR
+>   ### Color
 >    Red (0-255) | Green (0-255) | Blue (0-255)
 >    Example: talkingColor = {r = 255, b = 177, g = 51},
 >
->    KEYBIND
+>   ### Keybind
 >    121 (INSERT) | 194 (BACKSPACE)
 >    You can find a list of controls here! -> [FiveM Controls](https://docs.fivem.net/docs/game-references/controls)
 
 ## Download
-Check out the [releases](https://github.com/Stanley405/IDAH/releases) page for the newest version.  
+Check out the [releases](https://github.com/Stanley405/IDAH/releases) page for the latest version.  
   
 ## Performance
 IDAH is a very lightweight resource and will not cause any performance issues.    
@@ -59,5 +57,5 @@ If you've found a bug or want to request a feature, you can go ahead and create 
 If you've improved the resource, feel free to make a [pull request](https://github.com/Stanley405/IDAH/pulls)!  
   
 ## License
-Vice Modifications © 2024  
+Vice Modifications Copyright © 2024. All rights reserved.  
 This resource is [CC BY-NC-SA 4.0](https://github.com/Stanley405/IDAH/blob/main/LICENSE) licensed.
