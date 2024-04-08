@@ -25,7 +25,7 @@ This resource displays the server id and username above the head of all players 
 - Lightweight resource.
 
 ## Screenshots 📸
-![](https://imgur.com/6WI4Fyx)
+![screenshot](https://imgur.com/6WI4Fyx.png)
 
 ## Download 🔽
 Check out the [releases](https://github.com/Stanley405/IDAH/releases) page for the latest resource version.
