@@ -2,7 +2,7 @@ fx_version 'cerulean'
 games 'gta5'
 lua54 'yes'
 
-author 'Stanley'
+author 'Stanley, Vice Mondifications'
 description 'Displays a players id and username above the players head with activation of keybind.'
 
 client_scripts {
