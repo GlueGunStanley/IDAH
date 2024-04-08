@@ -28,7 +28,7 @@
 
 
 
-idahConfig = {
+Config = {
 
     font = 3,
 

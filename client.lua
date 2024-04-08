@@ -10,7 +10,7 @@ local fontIndex = {
     [4] = 4, -- Chalet Comprime Cologne
     [5] = 7  -- Pricedown
 }
-local fontvalue = idahConfig.font
+local fontvalue = Config.font
 local font = fontIndex[fontvalue]
 
 local function GetFont() return font end
@@ -43,8 +43,8 @@ end
 Citizen.CreateThread(function()
     Wait(500)
     while true do
-        local isInsertPressed = IsControlPressed(0, idahConfig.mainKey)
-        local isControlPressed = IsControlPressed(0, idahConfig.comboKey)
+        local isInsertPressed = IsControlPressed(0, Config.mainKey)
+        local isControlPressed = IsControlPressed(0, Config.comboKey)
 
         if isControlPressed and isInsertPressed then
             if not lastToggleTime then lastToggleTime = GetGameTimer() end -- Initialize last toggle time
@@ -69,11 +69,11 @@ Citizen.CreateThread(function()
                     local playerName = GetPlayerName(id)
 
                     if NetworkIsPlayerTalking(id) then
-                        DrawText3D(targetPedCords, serverId, idahConfig.talkingColor.r, idahConfig.talkingColor.g, idahConfig.talkingColor.b, 0.235)
-                        DrawText3D(targetPedCords, playerName, idahConfig.talkingColor.r, idahConfig.talkingColor.g, idahConfig.talkingColor.b, 0.13)
+                        DrawText3D(targetPedCords, serverId, Config.talkingColor.r, Config.talkingColor.g, Config.talkingColor.b, 0.235)
+                        DrawText3D(targetPedCords, playerName, Config.talkingColor.r, Config.talkingColor.g, Config.talkingColor.b, 0.13)
                     else
-                        DrawText3D(targetPedCords, serverId, idahConfig.defaultColor.r, idahConfig.defaultColor.g, idahConfig.defaultColor.b, 0.235)
-                        DrawText3D(targetPedCords, playerName, idahConfig.defaultColor.r, idahConfig.defaultColor.g, idahConfig.defaultColor.b, 0.13)
+                        DrawText3D(targetPedCords, serverId, Config.defaultColor.r, Config.defaultColor.g, Config.defaultColor.b, 0.235)
+                        DrawText3D(targetPedCords, playerName, Config.defaultColor.r, Config.defaultColor.g, Config.defaultColor.b, 0.13)
                     end
                 end
             end
