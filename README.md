@@ -49,7 +49,7 @@ A default configuration comes with the resource. You may use that as a reference
 >    Example: talkingColor = {r = 255, b = 177, g = 51},
 >
 >   ### Keybind
->    121 (INSERT) | 194 (BACKSPACE)
+>    121 `INSERT` | 194 `BACKSPACE`
 >    You can find a list of controls here! -> [FiveM Controls](https://docs.fivem.net/docs/game-references/controls)
   
 ## Performance ➰
