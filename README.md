@@ -17,8 +17,8 @@ This resource displays the server id and username above the head of all players 
 
 ## Features ✨
 - Displays server id and username above the head of all players with activation of keybind.
-- Peak view with press and release of keybind.
-- Toggle view with press and hold of combo keybind.
+- Peak view with press and release of keybind. `INSERT` by default.
+- Toggle view with press and hold of combo keybind. `BACKSPACE` + `INSERT` by default.
 - Configurable fonts.
 - Configurable colors.
 - Configurable keybind.
