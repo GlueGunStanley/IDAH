@@ -55,7 +55,7 @@ A default configuration comes with the resource. You may use that as a reference
 ## Performance ➰
 IDAH is a very lightweight resource and will not cause any performance issues.    
   
-## Contributions 🤍
+## Contributions 💜
 If you've found a bug or want to request a feature, you can go ahead and create an [issue](https://github.com/Stanley405/IDAH/issues).  
 If you've improved the resource, feel free to make a [pull request](https://github.com/Stanley405/IDAH/pulls)!  
   
