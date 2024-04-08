@@ -15,7 +15,7 @@
 # IDAH (ID Above Head)
 This resource displays the server id and username above the head of all players with the activation of a keybind.
 
-## Features
+## Features ✨
 - Displays server id and username above the head of all players with activation of keybind.
 - Peak view with press and release of keybind.
 - Toggle view with press and hold of combo keybind.
@@ -24,7 +24,10 @@ This resource displays the server id and username above the head of all players 
 - Configurable keybind.
 - Lightweight resource.
 
-## Installation
+## Download 🔽
+Check out the [releases](https://github.com/Stanley405/IDAH/releases) page for the latest version.
+
+## Installation ✅
 1. Download the latest release.
 2. Drag IDAH into your resource folder.
 3. Go to your server.cfg, and type "start IDAH"
@@ -32,7 +35,7 @@ This resource displays the server id and username above the head of all players 
 
 That's it! If everything went correctly, the next time you start your server the resource will start.
   
-## Configuration
+## Configuration 🔧
 A default configuration comes with the resource. You may use that as a reference on how to configure the resource properly.
 
 >   ### Font
@@ -45,17 +48,14 @@ A default configuration comes with the resource. You may use that as a reference
 >   ### Keybind
 >    121 (INSERT) | 194 (BACKSPACE)
 >    You can find a list of controls here! -> [FiveM Controls](https://docs.fivem.net/docs/game-references/controls)
-
-## Download
-Check out the [releases](https://github.com/Stanley405/IDAH/releases) page for the latest version.  
   
-## Performance
+## Performance 📈
 IDAH is a very lightweight resource and will not cause any performance issues.    
   
-## Contributions
+## Contributions 🌐
 If you've found a bug or want to request a feature, you can go ahead and create an [issue](https://github.com/Stanley405/IDAH/issues).  
 If you've improved the resource, feel free to make a [pull request](https://github.com/Stanley405/IDAH/pulls)!  
   
-## License
+## License 📄
 Vice Modifications Copyright © 2024. All rights reserved.  
-This resource is [CC BY-NC-SA 4.0](https://github.com/Stanley405/IDAH/blob/main/LICENSE)![](https://creativecommons.org/licenses/by-nc-sa/4.0/) licensed. 
+This resource is licensed under [CC BY-NC-SA 4.0](https://github.com/Stanley405/IDAH/blob/main/LICENSE)![](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png) by the Creative Commons Corporation.
